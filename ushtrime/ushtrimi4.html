@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let qyteti1 = "Gjilan";
+        let qyteti2 = "Prishtine";
+        let qyteti3 = "Prizer";
+        let qytetiEmrinMeTeGjate;
+        let gjatesia1 = qyteti1.length;
+        let gjatesia2 = qyteti2.length;
+        let gjatesia3 = qyteti3.length;
+
+
+        let qytetiMeGjate;
+        if (gjatesia1 >= gjatesia2 && gjatesia1 >= gjatesia3) {
+            qytetiMeGjate = qyteti1;
+        } else if (gjatesia2 >= gjatesia1 && gjatesia2 >= gjatesia3) {
+            qytetiMeGjate = qyteti2;
+        } else {
+            qytetiMeGjate = qyteti3;
+        }
+
+        console.log(`Qyteti me emrin më të gjatë është: ${qytetiMeGjate}`);
+    </script>
+</body>
+
+</html>
